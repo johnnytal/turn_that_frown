@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<widget id="cocoon.ilyich.smiley" version="1.2" android-versionCode="101003" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<widget id="cocoon.ilyich.smiley" version="1.3" android-versionCode="101004" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 		<name>Turn that frown upside Down</name>
 		<description>Make the smiley frown and the frowny smile</description>
 		<author email="johnnytal9@gmail.com" href="http://www.ilyichgames.com"> Johnny Tal </author>

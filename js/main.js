@@ -160,7 +160,7 @@ function initAd(){
     var admobid = {};
 
     admobid = {
-        banner: 'ca-app-pub-9795366520625065/8080428948'
+        banner: 'ca-app-pub-9795366520625065/2573845495'
     };
 
     if(AdMob) AdMob.createBanner({

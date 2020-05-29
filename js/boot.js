@@ -23,23 +23,12 @@ boot.prototype = {
     create: function(){
         game.stage.backgroundColor = '#f0f0f0';
 
-        if (this.game.device.desktop){
-            this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-            
-            this.scale.maxWidth = 850; 
-            this.scale.maxHeight = 1100; 
-            
-            this.game.scale.pageAlignHorizontally = true;
-        } 
+        this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+
+        this.scale.maxWidth = window.innerWidth * window.devicePixelRatio;
+        this.scale.maxHeight = window.innerHeight * window.devicePixelRatio;
         
-        else {
-	        this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-	
-	        this.scale.maxWidth = window.innerWidth * window.devicePixelRatio;
-	        this.scale.maxHeight = window.innerHeight * window.devicePixelRatio;
-	        
-	        this.scale.forceOrientation(true, false );
-        }
+        this.scale.forceOrientation(true, false);
 
         game.state.start('Preloader');
     
